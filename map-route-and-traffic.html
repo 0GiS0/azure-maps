@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Azure Maps - Route</title>
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/css/atlas.min.css?api-version=1.0" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="https://atlas.microsoft.com/sdk/js/atlas.min.js?api-version=1.0"></script>
+</head>
+
+<body>
+    <div id="routeInfo">
+        <h2>Route Information</h2>
+        <ul>
+            <li>
+                <label>Departure Time:</label>
+                <label id="departureTime"></label>
+            </li>
+            <li>
+                <label>Arrival Time:</label>
+                <label id="arrivalTime"></label>
+            </li>
+            <li>
+                <label>Distance:</label>
+                <label id="lengthInKm"></label>
+            </li>
+            <li>
+                <label>Travel Time:</label>
+                <label id="travelTimeInSeconds"></label>
+            </li>
+            <li>
+                <label>Traffic Delay:</label>
+                <label id="trafficDelayInSeconds"></label>
+            </li>
+        </ul>
+    </div>
+    <div id="map"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/azure-maps-search.js"></script>
+    <script src="js/azure-maps-route.js"></script>
+</body>
+
+</html>

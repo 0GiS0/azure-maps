@@ -60,3 +60,28 @@ body {
 .info.category{
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAAB9ElEQVR4Ae2aA4weYRRFb23bdhfzbhVuVDdOY9YK67B2gxpRjaiINqri2ghr25zGSfNNtTszf15yz405Z/wAkYwQQgghhBBCCGFjbKud5CvGGeUVz9oWjkYW9KtvhxnnEzvZvwPSpXstnmWcX+xWv/pIE25nnG/sKNKDgxnnH5uEtLBthRDgx6KuaQncYlyQnEV1pAG/Mi5MbEk6AvGvQUZwTyDw3YY4EujekHeCq3Cne0M3AoANse/BVdjpSACwJYyDjHUkgOoJ3/zXbONHAEVd7V1wGx1HFTcCQDQ+vI1stiMBwI4ECl9Z5EigqAkfBAo3Otd2IwBEZQm30XpHAgDXhgoc5kigX01eDq7Bk6ImbgSA4l78GCgccSQA2IykQseRAMDypELHkUDUwp4kFTpuBAAOSyp0HAkA3JRU6DgS6FybN5IKHTcCAIv4NSx0XAnY5+Aa7NEtlBe2Prh9ftgQ169RLteHTL8S/wSnhbdPNMX17zTLnRc0UQs3AlzjuqSMyuxHcP43qq2ixlbFW4tz1Nz12V7XgCOFEdMuDfnyEuDBrMasb5wPuu2C91WDFc6XPaJO9t31ug1gW3I//MMpr5zZmVwFTnWujXRhDc63d7kc/JdoIWtkU6O25Cw7weeZrl0ujdpCCCGEEEIIIYQQ/8VPxi6khON11YAAAAAASUVORK5CYII=");
 }
+
+#routeInfo{
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:10pt;    
+    z-index: 1;
+    position: absolute;    
+    /*bottom: 20px;*/
+    background-color: white;
+    width: 30%;
+    height: 170px;
+    padding: 0px;
+}
+
+#routeInfo h2{
+    padding-left:36px;
+}
+
+#routeInfo ul{
+    list-style: none;
+}
+
+#routeInfo ul > li > label:first-child{
+    font-weight: bold;
+}
