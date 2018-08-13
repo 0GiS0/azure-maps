@@ -81,4 +81,3 @@ map.addEventListener("click", searchLayer, (e) => {
         console.warn('ERROR(' + err.code + '): ' + err.message);
     });
 });
-

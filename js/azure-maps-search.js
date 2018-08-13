@@ -1,5 +1,5 @@
 //Render map
-var AzureMapsKey = "EFpillS0nu5SJSMtF79GWLwjSfH_F78C-udd_4H7ZTg",
+var AzureMapsKey = "<your azure maps key>",
     map = new atlas.Map("map", {
         "subscription-key": AzureMapsKey
     });
